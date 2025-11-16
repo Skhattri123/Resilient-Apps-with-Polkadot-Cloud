@@ -25,7 +25,7 @@ This tool lets anyone convert a familiar Web2 login into a **self-sovereign, blo
 
 ## How to Run
 
-### 1. Run the Custom Chain
+1. Run the Custom Chain
 
 ```bash
 git clone https://github.com/yourhandle/polkadot-identity-bridge.git
@@ -35,14 +35,14 @@ cargo build --release
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Websocket: ws://127.0.0.1:9944
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-** ### 2. Start the Web App **
+2. Start the Web App
 cd ../app
 npm install
 npm run dev
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Visit http://localhost:5173
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-###3. Try It Out
+3. Try It Out
 
 Connect a Polkadot wallet (e.g., via browser extension)
 Sign in with Google
